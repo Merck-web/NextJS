@@ -13,5 +13,6 @@
 			],
 			"port": 9229
 		}
-	]
+	],
+	"stylelint.validate": ["css", "scss", ".module.scss"]
 }
