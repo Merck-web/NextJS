@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, Paragraph, Tag } from "../components";
+import { Button, Paragraph, Rating, Tag } from "../components";
 import { Htag } from "../components/Htag/Htag";
 
 export default function Home(): JSX.Element {
@@ -18,6 +18,7 @@ export default function Home(): JSX.Element {
       <Tag size='s' color='green'>
         10 рублей
       </Tag>
+      <Rating rating={3}></Rating>
     </>
   );
 }
