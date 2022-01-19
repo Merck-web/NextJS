@@ -1,5 +1,5 @@
 import React from "react";
-import { Button } from "../components";
+import { Button, Paragraph } from "../components";
 import { Htag } from "../components/Htag/Htag";
 
 export default function Home(): JSX.Element {
@@ -12,6 +12,9 @@ export default function Home(): JSX.Element {
       <Button appearance='ghost' arrow='down'>
         Кнопка
       </Button>
+      <Paragraph size='s'>Привет Я текст</Paragraph>
+      <Paragraph size='m'>Привет Я текст</Paragraph>
+      <Paragraph size='l'>Привет Я текст</Paragraph>
     </>
   );
 }
