@@ -8,26 +8,33 @@
   min-height: 100vh;
   grid-template-rows: auto 1fr auto;
 }
+
 .header {
   grid-area: header;
   display: none;
 }
+
 .sidebar {
   grid-area: sidebar;
 }
+
 .body {
   grid-area: body;
 }
+
 .footer {
   grid-area: footer;
 }
+
 @media (max-width: 765px) {
   .sidebar {
-    display: none;
+    display: none !important;
   }
+
   .header {
     display: block;
   }
+
   .wrapper {
     grid-template-columns: minmax(320px, 1fr);
     grid-template-areas:
