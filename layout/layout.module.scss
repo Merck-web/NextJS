@@ -6,6 +6,7 @@
     ". sidebar body ."
     "footer footer footer footer";
   min-height: 100vh;
+  gap: 40px 30px;
   grid-template-rows: auto 1fr auto;
 }
 
@@ -41,5 +42,9 @@
       "header"
       "body"
       "footer";
+  }
+
+  .body {
+    padding: 15px;
   }
 }

@@ -4,13 +4,11 @@ export enum TopLevelCategory {
   Books,
   Products,
 }
-
 export interface TopPageAdvantage {
   _id: string;
   title: string;
   description: string;
 }
-
 export interface HhData {
   _id: string;
   count: number;
@@ -19,7 +17,6 @@ export interface HhData {
   seniorSalary: number;
   updatedAt: Date;
 }
-
 export interface TopPageModel {
   tags: string[];
   _id: string;
